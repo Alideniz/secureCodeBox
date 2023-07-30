@@ -58,7 +58,7 @@ test("example parser parses single line json successfully", async () => {
           "ip_addresses": [
             "10.110.225.135",
           ],
-          "source": undefined,
+          "sources": ["CertSpotter"],
           "tag": "cert",
         },
         "category": "Subdomain",

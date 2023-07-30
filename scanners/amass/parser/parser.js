@@ -31,7 +31,7 @@ async function parse(fileContent) {
       attributes: {
         tag: domain.tag,
         hostname: domain.name,
-        source: domain.source,
+        source: domain.sources,
         domain: domain.domain,
         addresses: domain.addresses,
         ip_addresses: domain.addresses?.map((address) => address.ip) ?? [],
